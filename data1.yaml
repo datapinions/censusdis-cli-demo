@@ -1,0 +1,10 @@
+!DataSpec
+dataset: ACS5
+vintage: 2020
+geography:
+  state: '*'
+specs:
+  !VariableList
+  variables:
+    - NAME
+    - B01003_001E

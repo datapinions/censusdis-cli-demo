@@ -1,0 +1,14 @@
+!DataSpec
+dataset: ACS5
+vintage: 2020
+geography:
+  state: '*'
+specs:
+  - !VariableList
+    variables:
+      - NAME
+  - !VariableList
+    variables:
+      - B01003_001E
+    denominator: B16010_001E
+    frac_prefix: per_home_

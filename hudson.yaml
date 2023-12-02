@@ -1,0 +1,12 @@
+!DataSpec
+dataset: ACS5
+vintage: 2020
+geography:
+  state: NJ
+  county: '017'
+  tract: '*'
+specs:
+  !VariableList
+  variables:
+    - NAME
+    - B01003_001E
