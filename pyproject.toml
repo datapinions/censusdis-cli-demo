@@ -8,7 +8,7 @@ packages = [{include = "censusdis_cli_demo"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-censusdis = "^0.99.4"
+censusdis = "^0.99.5"
 
 
 [build-system]
