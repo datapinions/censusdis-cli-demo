@@ -1,0 +1,14 @@
+!DataSpec
+dataset: DECENNIAL_PUBLIC_LAW_94_171
+vintage: 2020
+geography:
+  state: ALL_STATES_AND_DC
+  county: '*'
+specs:
+  - !VariableList
+    variables:
+      - NAME
+  - !Group
+    group: P1
+    denominator: P1_001N
+with_geometry: true

@@ -3,7 +3,7 @@ dataset: ACS5
 vintage: 2020
 geography:
   state: NJ
-  county: '017'
+  county: HUDSON
   tract: '*'
 specs:
   !VariableList

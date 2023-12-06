@@ -1,0 +1,9 @@
+- !PlotSpec
+  variable: frac_P1_003N
+  title: "White Alone Population as a Percent of County Population"
+  legend_format: percent
+  plot_kwargs:
+    figsize: [12, 6]
+    cmap: gray
+    vmin: 0.0
+    vmax: 100.0

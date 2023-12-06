@@ -1,0 +1,13 @@
+- !PlotSpec
+  variable: B19013_001E
+  title: "Median Household Income by State"
+  legend_format: dollar
+  plot_kwargs:
+    figsize: [12, 6]
+    cmap: YlGn
+    vmin: 0
+- !PlotSpec
+  boundary: true
+  plot_kwargs:
+    color: black
+    linewidth: 0.5
